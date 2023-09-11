@@ -1,0 +1,198 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #283226;
+    color: #b5dee8;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #212e1f;
+    padding: 1% 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 40%;
+}
+
+a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #b5dee8;
+}
+
+h2 {
+    font-size: 40px;
+}
+.logo {
+    width: 25%;
+    
+}
+
+.logo img {
+    width: 50%;
+}
+
+
+
+main {
+    margin-top: 8%;
+}
+
+
+.article1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 2%;
+}
+
+.article2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 2%;
+}
+
+.article1 p, .article1 h2 {
+    margin-right: 5%;
+}
+
+.article2 p, .article2 h2 {
+    margin-left: 5%;
+}
+
+.article1 img {
+    margin-left: 5%;
+}
+
+.article2 img {
+    margin-right: 5%;
+}
+
+.text {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+
+.paddingtext {
+    padding-left: 2%;
+}
+
+.text p {
+    font-size: 23px;
+}
+
+.text h1 {
+    font-size: 48px;
+}
+
+.img {
+    width: 30%;
+}
+.img img {
+    width: 100%;
+}
+
+
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 2%;
+}
+
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+form>* {
+    margin:5%;
+    width: 100%;
+}
+
+footer {
+    background-color: #212e1f;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3% 0;
+}
+
+footer .logo {
+    margin-left: 12%;
+}
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: inherit;
+    width: 40%;
+}
+.icons {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 25%;
+}
+
+.icons img {
+    width: 75%;
+}
+
+/* стили для фаркрай 3 страницы */
+
+.trailer {
+    width: 100%;
+}
+.trailer iframe {
+    width: 80%;
+    height: 80vh;
+    padding: 2% 10%
+}
+
+.h1fc {
+    text-align: center;
+    width: 70%;
+}
+
+.mainfc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size:24px;
+}
+.maintext h1 {
+    font-size: 100px;
+    
+}
+.slick-slider{
+    display: flex !important;
+    align-items: center;
+}
+.item{
+    display: flex !important;
+    flex-direction: column;
+    margin-right: 20px;
+}
+.item img {
+    width: 100%;
+    object-fit: contain;
+}
